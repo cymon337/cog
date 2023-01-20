@@ -1,0 +1,1177 @@
+[2023-01-20 11:18:28:666][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 9624 (C:\edu\restapi\02_jwtpro\build\classes\java\main started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 11:18:28:667][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 11:18:28:704][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 11:18:28:705][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 11:18:28:705][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 11:18:29:1402][restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.uni.reactpro]' package. Please check your configuration.
+[2023-01-20 11:18:29:1723][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 11:18:29:1731][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:18:29:1731][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 11:18:29:1731][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 11:18:29:1804][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 11:18:29:1804][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1097 ms
+[2023-01-20 11:18:29:2168][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d444e49f-6e5d-4a84-9e7f-2267c2c9c1e3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2023-01-20 11:18:29:2234][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6cf8c25e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b7e3939, org.springframework.security.web.context.SecurityContextPersistenceFilter@366be0f1, org.springframework.security.web.header.HeaderWriterFilter@1c611645, org.springframework.security.web.csrf.CsrfFilter@1419c116, org.springframework.security.web.authentication.logout.LogoutFilter@184204c8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5bf22a7e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@73f4db58, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1fd29b8b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@73d2da13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60fc4946, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d93b967, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42195f5, org.springframework.security.web.session.SessionManagementFilter@5e0aa26, org.springframework.security.web.access.ExceptionTranslationFilter@18373f26, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@693cf88c]
+[2023-01-20 11:18:29:2260][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 11:18:30:2271][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:18:30:2283][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 11:18:30:2292][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 2.019 seconds (JVM running for 2.792)
+[2023-01-20 11:28:47:620178][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[2023-01-20 11:28:48:620296][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:28:48:620297][Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 11:28:48:620303][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:28:48:620305][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:28:48:620384][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 9624 (C:\edu\restapi\02_jwtpro\build\classes\java\main started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 11:28:48:620384][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 11:28:48:620603][restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.uni.reactpro]' package. Please check your configuration.
+[2023-01-20 11:28:48:620639][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 11:28:48:620640][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:28:48:620640][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 11:28:48:620640][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 11:28:48:620653][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 11:28:48:620653][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 267 ms
+[2023-01-20 11:28:48:620740][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 0893c4c9-354f-494c-b2e4-d893efee971b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2023-01-20 11:28:48:620746][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@d58e6fa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3dc756f6, org.springframework.security.web.context.SecurityContextPersistenceFilter@6030dda9, org.springframework.security.web.header.HeaderWriterFilter@5335dd9d, org.springframework.security.web.csrf.CsrfFilter@7b16d17f, org.springframework.security.web.authentication.logout.LogoutFilter@3fbcbe99, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@727dfdb4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@18b9dc79, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@204a8ca7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@76f169b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b3159d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3695bc1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d0bcdf7, org.springframework.security.web.session.SessionManagementFilter@2d607c53, org.springframework.security.web.access.ExceptionTranslationFilter@49fc5adf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@429e5639]
+[2023-01-20 11:28:48:620754][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 11:28:48:620760][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:28:48:620761][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 11:28:48:620765][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.416 seconds (JVM running for 621.265)
+[2023-01-20 11:28:48:620766][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 11:28:49:622185][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[2023-01-20 11:28:50:622288][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:28:50:622288][Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 11:28:50:622290][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:28:50:622291][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:28:50:622343][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 9624 (C:\edu\restapi\02_jwtpro\build\classes\java\main started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 11:28:50:622343][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 11:28:50:622488][restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.uni.reactpro]' package. Please check your configuration.
+[2023-01-20 11:28:50:622514][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 11:28:50:622515][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:28:50:622515][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 11:28:50:622516][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 11:28:50:622527][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 11:28:50:622527][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 182 ms
+[2023-01-20 11:28:50:622603][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 50fff766-5424-49d4-b5b6-39efbf79e5e0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2023-01-20 11:28:50:622609][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3213dfbe, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a92a312, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e1a76fe, org.springframework.security.web.header.HeaderWriterFilter@23d6e450, org.springframework.security.web.csrf.CsrfFilter@3b2ca088, org.springframework.security.web.authentication.logout.LogoutFilter@2c643dac, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@230011f7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@112773e2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@393e961e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@319abcb0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@703a1d35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@645a9306, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d25c2b5, org.springframework.security.web.session.SessionManagementFilter@10ecbc8b, org.springframework.security.web.access.ExceptionTranslationFilter@547d4c64, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@df4bbbd]
+[2023-01-20 11:28:50:622615][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 11:28:50:622620][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:28:50:622622][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 11:28:50:622625][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.307 seconds (JVM running for 623.124)
+[2023-01-20 11:28:50:622625][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 11:29:40:672637][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[2023-01-20 11:29:40:672742][Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:29:40:672742][Thread-11] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 11:29:40:672744][Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:29:40:672745][Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:29:40:672800][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 9624 (C:\edu\restapi\02_jwtpro\build\classes\java\main started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 11:29:40:672800][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 11:29:40:672945][restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.uni.reactpro]' package. Please check your configuration.
+[2023-01-20 11:29:40:672980][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 11:29:40:672981][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:29:40:672981][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 11:29:40:672981][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 11:29:40:672991][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 11:29:40:672991][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 190 ms
+[2023-01-20 11:29:40:673070][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 87c1f04c-f47c-411c-9dc3-ebf4886a93c3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2023-01-20 11:29:40:673075][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ff1c8e0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d8c7ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@718712d0, org.springframework.security.web.header.HeaderWriterFilter@236c3e1e, org.springframework.security.web.csrf.CsrfFilter@32bd3ae7, org.springframework.security.web.authentication.logout.LogoutFilter@1d06fddb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57eee8e4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2efb1556, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@25d1a67b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3993ca69, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7571e5d9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@372fa9a7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@236f02a, org.springframework.security.web.session.SessionManagementFilter@2ab66f63, org.springframework.security.web.access.ExceptionTranslationFilter@5cab0b22, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@708d57cd]
+[2023-01-20 11:29:40:673081][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 11:29:40:673086][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:29:40:673088][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 11:29:40:673091][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.317 seconds (JVM running for 673.59)
+[2023-01-20 11:29:40:673091][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 11:31:57:587][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 7692 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 11:31:57:588][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 11:31:57:620][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 11:31:57:621][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 11:31:57:621][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 11:31:57:1192][restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.uni.reactpro]' package. Please check your configuration.
+[2023-01-20 11:31:58:1521][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 11:31:58:1529][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:31:58:1530][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 11:31:58:1530][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 11:31:58:1601][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 11:31:58:1601][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 979 ms
+[2023-01-20 11:31:58:2027][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8fe0cdac-04d6-4477-845c-5b80f8e2dfeb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2023-01-20 11:31:58:2095][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28ed99a6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77debd5f, org.springframework.security.web.context.SecurityContextPersistenceFilter@44b0d161, org.springframework.security.web.header.HeaderWriterFilter@e6b9311, org.springframework.security.web.csrf.CsrfFilter@6d9a488e, org.springframework.security.web.authentication.logout.LogoutFilter@72230f1f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@74fceea, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2cb7a821, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@38d77367, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7fcf2ff3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68ba9dcb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bd926e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@410e58b6, org.springframework.security.web.session.SessionManagementFilter@32b209ed, org.springframework.security.web.access.ExceptionTranslationFilter@fda1a77, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46f4fb31]
+[2023-01-20 11:31:58:2125][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 11:31:58:2138][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:31:58:2152][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 11:31:58:2162][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 1.998 seconds (JVM running for 2.659)
+[2023-01-20 11:38:43:407210][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2023-01-20 11:38:43:407319][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:38:43:407320][Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 11:38:43:407325][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:38:43:407326][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:38:44:407392][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 7692 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 11:38:44:407392][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 11:38:44:407556][restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.uni.reactpro]' package. Please check your configuration.
+[2023-01-20 11:38:44:407595][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 11:38:44:407596][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:38:44:407596][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 11:38:44:407596][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 11:38:44:407609][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 11:38:44:407609][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 215 ms
+[2023-01-20 11:38:44:407698][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8709642a-4068-4ea6-8e03-822cda964df6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2023-01-20 11:38:44:407707][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2e31e046, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f4e9e80, org.springframework.security.web.context.SecurityContextPersistenceFilter@45a88917, org.springframework.security.web.header.HeaderWriterFilter@3c030895, org.springframework.security.web.csrf.CsrfFilter@783d823, org.springframework.security.web.authentication.logout.LogoutFilter@6ccbcf36, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69cf1c34, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6c76ec93, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5ef105e1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7b49c9a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c21bf90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28c25921, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b40e360, org.springframework.security.web.session.SessionManagementFilter@5c73007a, org.springframework.security.web.access.ExceptionTranslationFilter@5d328e5c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b715df5]
+[2023-01-20 11:38:44:407718][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 11:38:44:407724][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:38:44:407726][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 11:38:44:407729][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.366 seconds (JVM running for 408.226)
+[2023-01-20 11:38:44:407730][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 11:42:10:614164][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+[2023-01-20 11:42:10:614287][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:42:10:614287][Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 11:42:10:614294][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:42:10:614300][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:42:10:614352][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 7692 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 11:42:10:614352][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 11:42:11:614490][restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.uni.reactpro]' package. Please check your configuration.
+[2023-01-20 11:42:11:614516][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 11:42:11:614517][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:42:11:614517][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 11:42:11:614517][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 11:42:11:614538][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 11:42:11:614538][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 184 ms
+[2023-01-20 11:42:11:614551][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 545074cd-1131-4545-90e8-4347f137683d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2023-01-20 11:42:11:614558][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ce42970, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f8489d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a1e2e1b, org.springframework.security.web.header.HeaderWriterFilter@3be55e09, org.springframework.security.web.authentication.logout.LogoutFilter@4e6d8269, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42ddb795, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5359bcd1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63ae0842, org.springframework.security.web.session.SessionManagementFilter@16bc1f7c, org.springframework.security.web.access.ExceptionTranslationFilter@739561cc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20fecc9b]
+[2023-01-20 11:42:11:614560][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 11:42:11:614560][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 11:42:11:614626][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 11:42:11:614631][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:42:11:614633][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 11:42:11:614636][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.309 seconds (JVM running for 615.133)
+[2023-01-20 11:42:11:614638][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
+      Did not match:
+         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' configure; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+[2023-01-20 11:43:15:505][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 7620 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 11:43:15:506][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 11:43:15:539][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 11:43:15:540][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 11:43:15:540][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 11:43:15:1032][restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.uni.reactpro]' package. Please check your configuration.
+[2023-01-20 11:43:16:1317][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 11:43:16:1330][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:43:16:1331][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 11:43:16:1331][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 11:43:16:1391][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 11:43:16:1391][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 851 ms
+[2023-01-20 11:43:16:1461][restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 5e885eee-8d48-4876-a3c6-8bc3bff845c0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2023-01-20 11:43:16:1516][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@333afd67, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23c3b8bb, org.springframework.security.web.context.SecurityContextPersistenceFilter@6519a543, org.springframework.security.web.header.HeaderWriterFilter@5d5fcb60, org.springframework.security.web.authentication.logout.LogoutFilter@ed98074, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e3c5726, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73de570f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@136ec0e7, org.springframework.security.web.session.SessionManagementFilter@4a082cba, org.springframework.security.web.access.ExceptionTranslationFilter@17949606, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c29b906]
+[2023-01-20 11:43:16:1520][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 11:43:16:1520][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 11:43:16:1844][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 11:43:16:1862][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 11:43:16:1877][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 11:43:16:1886][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 1.723 seconds (JVM running for 2.314)
+[2023-01-20 11:43:44:29896][http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-01-20 11:43:44:29897][http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-01-20 11:43:44:29898][http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2023-01-20 12:01:52:622][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 6496 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 12:01:52:624][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 12:01:52:677][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 12:01:52:678][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 12:01:52:678][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 12:01:53:1839][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 12:01:53:1863][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 12:01:53:1863][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 12:01:53:1864][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 12:01:53:1937][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 12:01:53:1937][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1258 ms
+[2023-01-20 12:01:54:2291][restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authService' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\dao\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+[2023-01-20 12:01:54:2296][restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 12:01:54:2311][restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2023-01-20 12:01:54:2349][restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authService' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\dao\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.uni.reactpro.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authService' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\dao\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\dao\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:342)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1707)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1452)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	... 52 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 62 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 76 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:187)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$de9fbad3.CGLIB$sqlSessionFactory$0(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$de9fbad3$$FastClassBySpringCGLIB$$a8c5bb8a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$de9fbad3.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'PurchaseDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: PurchaseDto
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	... 90 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'PurchaseDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: PurchaseDto
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 92 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'PurchaseDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: PurchaseDto
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 96 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: PurchaseDto
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
+	... 98 common frames omitted
+[2023-01-20 12:02:18:524][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 10176 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 12:02:18:525][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 12:02:18:557][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 12:02:18:559][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 12:02:18:559][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 12:02:19:1321][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 12:02:19:1334][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 12:02:19:1335][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 12:02:19:1336][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 12:02:19:1387][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 12:02:19:1387][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 828 ms
+[2023-01-20 12:02:19:1606][restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authService' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\dao\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+[2023-01-20 12:02:19:1608][restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 12:02:19:1617][restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2023-01-20 12:02:19:1636][restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authService' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\dao\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.uni.reactpro.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authService' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\service\AuthService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\dao\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [C:\edu\restapi\02_jwtpro\out\production\classes\com\uni\reactpro\member\dao\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:342)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1707)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1452)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	... 52 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 62 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 76 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:187)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$bde1e313.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$bde1e313$$FastClassBySpringCGLIB$$ec482e6c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$bde1e313.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\edu\restapi\02_jwtpro\out\production\resources\mybatis\mapper\PurchaseMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'PurchaseDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: PurchaseDto
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	... 90 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'PurchaseDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: PurchaseDto
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 92 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'PurchaseDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: PurchaseDto
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 96 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: PurchaseDto
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
+	... 98 common frames omitted
+[2023-01-20 12:22:33:712][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 5808 (C:\edu\restapi\02_jwtpro\build\classes\java\main started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 12:22:33:713][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 12:22:33:745][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 12:22:33:745][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 12:22:33:745][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 12:22:34:1636][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 12:22:34:1657][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 12:22:34:1658][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 12:22:34:1658][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 12:22:34:1730][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 12:22:34:1732][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 986 ms
+[2023-01-20 12:22:34:2205][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25911501, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7585242e, org.springframework.security.web.context.SecurityContextPersistenceFilter@2536e259, org.springframework.security.web.header.HeaderWriterFilter@4f24c89, org.springframework.security.web.authentication.logout.LogoutFilter@5e6de1d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24f2af0b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4506f2a3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50276675, org.springframework.security.web.session.SessionManagementFilter@49877497, org.springframework.security.web.access.ExceptionTranslationFilter@230ecac6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4192d924]
+[2023-01-20 12:22:34:2206][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 12:22:34:2206][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 12:22:35:2460][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 12:22:35:2473][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 12:22:35:2487][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 12:22:35:2495][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 2.271 seconds (JVM running for 2.949)
+[2023-01-20 12:22:38:5339][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 27 class path changes (0 additions, 0 deletions, 27 modifications)
+[2023-01-20 12:22:38:5462][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 12:22:38:5463][Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 12:22:38:5471][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 12:22:38:5473][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 12:22:38:5557][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 5808 (C:\edu\restapi\02_jwtpro\build\classes\java\main started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 12:22:38:5557][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 12:22:38:5814][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 12:22:38:5814][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 12:22:38:5815][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 12:22:38:5815][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 12:22:38:5827][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 12:22:38:5827][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 268 ms
+[2023-01-20 12:22:38:5912][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b4bca8a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31a9ca65, org.springframework.security.web.context.SecurityContextPersistenceFilter@3cd3c437, org.springframework.security.web.header.HeaderWriterFilter@47a700c8, org.springframework.security.web.authentication.logout.LogoutFilter@38853e9b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72de2439, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d00cbea, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@384cabe5, org.springframework.security.web.session.SessionManagementFilter@5cd9637b, org.springframework.security.web.access.ExceptionTranslationFilter@5f622430, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e1bd349]
+[2023-01-20 12:22:38:5913][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 12:22:38:5914][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 12:22:38:5979][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 12:22:38:5986][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 12:22:38:5988][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 12:22:38:5991][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.471 seconds (JVM running for 6.445)
+[2023-01-20 12:22:38:5992][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 13:28:31:3958424][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 27 class path changes (0 additions, 27 deletions, 0 modifications)
+[2023-01-20 13:28:31:3958679][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:28:31:3958680][Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 13:28:31:3958684][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:28:31:3958686][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:28:31:3958814][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 5808 (C:\edu\restapi\02_jwtpro\build\classes\java\main started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:28:31:3958814][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:28:31:3959141][restartedMain] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.uni.reactpro]' package. Please check your configuration.
+[2023-01-20 13:28:31:3959221][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:28:31:3959223][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:28:31:3959223][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:28:31:3959224][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:28:31:3959250][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:28:31:3959250][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 433 ms
+[2023-01-20 13:28:32:3959422][restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\build\resources\main\mybatis\mapper\MemberMapper.xml]'
+[2023-01-20 13:28:32:3959423][restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 13:28:32:3959435][restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2023-01-20 13:28:32:3959477][restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\build\resources\main\mybatis\mapper\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.uni.reactpro.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\build\resources\main\mybatis\mapper\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 24 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\edu\restapi\02_jwtpro\build\resources\main\mybatis\mapper\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:187)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e3c19b0f.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e3c19b0f$$FastClassBySpringCGLIB$$5d5c89.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e3c19b0f.sqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\edu\restapi\02_jwtpro\build\resources\main\mybatis\mapper\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'MemberDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: MemberDto
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	... 38 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'MemberDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: MemberDto
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 40 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'MemberDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: MemberDto
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 44 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: MemberDto
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
+	... 46 common frames omitted
+[2023-01-20 13:34:24:559][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 5516 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:34:24:560][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:34:24:594][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 13:34:24:594][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 13:34:24:594][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 13:34:25:1534][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:34:25:1543][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:34:25:1543][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:34:25:1544][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:34:25:1613][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:34:25:1613][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1018 ms
+[2023-01-20 13:34:25:1982][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@584fb77e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a79aacf, org.springframework.security.web.context.SecurityContextPersistenceFilter@73ed5d28, org.springframework.security.web.header.HeaderWriterFilter@c7c04f3, org.springframework.security.web.authentication.logout.LogoutFilter@1c1c7127, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5259737d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@707499e9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57d138b4, org.springframework.security.web.session.SessionManagementFilter@59a9ea4, org.springframework.security.web.access.ExceptionTranslationFilter@18edf6c9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d012fb5]
+[2023-01-20 13:34:25:1986][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:34:25:1986][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:34:26:2251][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:34:26:2268][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:34:26:2288][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:34:26:2300][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 2.112 seconds (JVM running for 2.884)
+[2023-01-20 13:35:36:529][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 12888 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:35:36:530][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:35:36:565][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 13:35:36:566][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 13:35:36:566][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 13:35:37:1315][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:35:37:1321][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:35:37:1321][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:35:37:1321][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:35:37:1380][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:35:37:1380][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 814 ms
+[2023-01-20 13:35:37:1684][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b52fa09, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74c7ca49, org.springframework.security.web.context.SecurityContextPersistenceFilter@65b2e736, org.springframework.security.web.header.HeaderWriterFilter@10690a09, org.springframework.security.web.authentication.logout.LogoutFilter@40796031, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@356e66a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@188b16f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6bd0c974, org.springframework.security.web.session.SessionManagementFilter@20d1c14b, org.springframework.security.web.access.ExceptionTranslationFilter@189def, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56d57c31]
+[2023-01-20 13:35:37:1687][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:35:37:1687][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:35:37:1911][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:35:37:1923][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:35:37:1936][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:35:37:1944][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 1.774 seconds (JVM running for 2.504)
+[2023-01-20 13:37:07:92041][http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-01-20 13:37:07:92041][http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-01-20 13:37:07:92043][http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2023-01-20 13:39:19:223722][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[2023-01-20 13:39:19:223844][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:39:19:223845][Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 13:39:19:223846][Thread-5] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2023-01-20 13:39:19:223850][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:39:19:223851][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:39:19:223926][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 12888 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:39:19:223926][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:39:20:224207][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:39:20:224207][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:39:20:224207][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:39:20:224208][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:39:20:224229][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:39:20:224229][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 300 ms
+[2023-01-20 13:39:20:224307][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@60d0d448, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1767bdab, org.springframework.security.web.context.SecurityContextPersistenceFilter@3db82485, org.springframework.security.web.header.HeaderWriterFilter@37191a6f, org.springframework.security.web.authentication.logout.LogoutFilter@585c4749, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46a37001, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3996d0d8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@739cee6f, org.springframework.security.web.session.SessionManagementFilter@672f531e, org.springframework.security.web.access.ExceptionTranslationFilter@1afc2390, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ce99349]
+[2023-01-20 13:39:20:224309][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:39:20:224309][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:39:20:224369][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:39:20:224375][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:39:20:224377][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:39:20:224380][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.485 seconds (JVM running for 224.94)
+[2023-01-20 13:39:20:224381][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 13:39:51:255474][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[2023-01-20 13:39:51:255601][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:39:51:255601][Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 13:39:51:255605][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:39:51:255608][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:39:51:255709][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 12888 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:39:51:255709][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:39:51:256003][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:39:51:256003][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:39:51:256003][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:39:51:256004][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:39:51:256016][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:39:51:256016][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 304 ms
+[2023-01-20 13:39:51:256103][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6dbddeca, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1444d15a, org.springframework.security.web.context.SecurityContextPersistenceFilter@7838a57e, org.springframework.security.web.header.HeaderWriterFilter@61a742d4, org.springframework.security.web.authentication.logout.LogoutFilter@7b0bc650, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11b05e49, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a5a1f49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@725e7774, org.springframework.security.web.session.SessionManagementFilter@47196d50, org.springframework.security.web.access.ExceptionTranslationFilter@2c88ad35, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@366b7be7]
+[2023-01-20 13:39:51:256105][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:39:51:256105][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:39:52:256188][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:39:52:256197][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:39:52:256200][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:39:52:256205][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.546 seconds (JVM running for 256.764)
+[2023-01-20 13:39:52:256209][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 13:40:03:267800][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+[2023-01-20 13:40:03:267909][Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:40:03:267909][Thread-11] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 13:40:03:267911][Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:40:03:267913][Thread-11] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:40:03:267963][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 12888 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:40:03:267963][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:40:03:268148][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:40:03:268148][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:40:03:268148][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:40:03:268148][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:40:04:268169][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:40:04:268169][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 204 ms
+[2023-01-20 13:40:04:268232][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2017c455, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fbb3517, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c91306c, org.springframework.security.web.header.HeaderWriterFilter@5dd3a0e0, org.springframework.security.web.authentication.logout.LogoutFilter@8740281, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2bcec19f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bdaa0a6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6912a7c7, org.springframework.security.web.session.SessionManagementFilter@3050d1ff, org.springframework.security.web.access.ExceptionTranslationFilter@39f9ca33, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5bcc52d1]
+[2023-01-20 13:40:04:268234][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:40:04:268234][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:40:04:268283][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:40:04:268288][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:40:04:268290][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:40:04:268293][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.355 seconds (JVM running for 268.852)
+[2023-01-20 13:40:04:268293][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 13:40:13:497][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 6152 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:40:13:498][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:40:13:532][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 13:40:13:534][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 13:40:13:534][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 13:40:14:1343][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:40:14:1349][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:40:14:1349][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:40:14:1349][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:40:14:1422][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:40:14:1423][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 889 ms
+[2023-01-20 13:40:14:1730][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7a3b8d65, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d64f751, org.springframework.security.web.context.SecurityContextPersistenceFilter@516f709b, org.springframework.security.web.header.HeaderWriterFilter@3693a5f0, org.springframework.security.web.authentication.logout.LogoutFilter@3cbd61a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c4c4c3c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72f91d82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7fc8cf4, org.springframework.security.web.session.SessionManagementFilter@75b837c8, org.springframework.security.web.access.ExceptionTranslationFilter@37c8f642, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6aa153ed]
+[2023-01-20 13:40:14:1731][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:40:14:1731][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:40:15:1946][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:40:15:1960][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:40:15:1973][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:40:15:1982][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 1.831 seconds (JVM running for 2.467)
+[2023-01-20 13:43:16:183234][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+[2023-01-20 13:43:16:183358][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:43:16:183359][Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 13:43:16:183365][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:43:16:183367][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:43:16:183447][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 6152 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:43:16:183447][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:43:16:183717][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:43:16:183718][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:43:16:183718][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:43:16:183718][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:43:16:183729][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:43:16:183729][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 279 ms
+[2023-01-20 13:43:16:183785][restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authController': Resolution of declared constructors on bean Class [com.uni.reactpro.member.controller.AuthController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3ca34b0f] failed; nested exception is java.lang.NoClassDefFoundError: com/uni/reactpro/member/service/AuthService
+[2023-01-20 13:43:16:183785][restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 13:43:16:183790][restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2023-01-20 13:43:17:183808][restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authController': Resolution of declared constructors on bean Class [com.uni.reactpro.member.controller.AuthController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3ca34b0f] failed; nested exception is java.lang.NoClassDefFoundError: com/uni/reactpro/member/service/AuthService
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.uni.reactpro.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: com/uni/reactpro/member/service/AuthService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3138)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2358)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.uni.reactpro.member.service.AuthService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 27 common frames omitted
+[2023-01-20 13:43:55:543][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 8800 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:43:55:544][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:43:55:579][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 13:43:55:580][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 13:43:55:580][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 13:43:55:1449][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:43:55:1459][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:43:55:1459][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:43:55:1460][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:43:56:1541][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:43:56:1541][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 961 ms
+[2023-01-20 13:43:56:1982][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@13400708, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bded3e9, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ee8003a, org.springframework.security.web.header.HeaderWriterFilter@2d16e810, org.springframework.security.web.authentication.logout.LogoutFilter@30d9001b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e1b72fd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6645e4f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14eab5a0, org.springframework.security.web.session.SessionManagementFilter@13f60579, org.springframework.security.web.access.ExceptionTranslationFilter@78e46fd6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@774f7ac3]
+[2023-01-20 13:43:56:1984][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:43:56:1985][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:43:56:2200][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:43:56:2213][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:43:56:2228][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:43:56:2241][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 2.049 seconds (JVM running for 2.774)
+[2023-01-20 13:48:50:295876][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+[2023-01-20 13:48:50:295988][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:48:50:295989][Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 13:48:50:295994][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:48:50:295995][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:48:50:296068][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 8800 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:48:50:296068][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:48:50:296291][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:48:50:296292][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:48:50:296292][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:48:50:296292][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:48:50:296309][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:48:50:296309][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 239 ms
+[2023-01-20 13:48:50:296393][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7081ef6c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b4fd716, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c177856, org.springframework.security.web.header.HeaderWriterFilter@2a0b6872, org.springframework.security.web.authentication.logout.LogoutFilter@43f81dbf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6851f35a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19685eda, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a57842a, org.springframework.security.web.session.SessionManagementFilter@515b9889, org.springframework.security.web.access.ExceptionTranslationFilter@460045a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f27a61a]
+[2023-01-20 13:48:50:296395][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:48:50:296395][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:48:51:296466][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:48:51:296472][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:48:51:296477][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:48:51:296481][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.448 seconds (JVM running for 297.014)
+[2023-01-20 13:48:51:296482][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 13:49:00:507][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 14292 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:49:00:508][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:49:00:544][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 13:49:00:545][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 13:49:00:545][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 13:49:01:1301][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:49:01:1307][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:49:01:1307][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:49:01:1307][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:49:01:1366][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:49:01:1366][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 820 ms
+[2023-01-20 13:49:01:1669][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58bdc65e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67edad88, org.springframework.security.web.context.SecurityContextPersistenceFilter@71ac2556, org.springframework.security.web.header.HeaderWriterFilter@294cb542, org.springframework.security.web.authentication.logout.LogoutFilter@67358ebd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42414ba0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39eb6b77, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@139085e6, org.springframework.security.web.session.SessionManagementFilter@5fa602e, org.springframework.security.web.access.ExceptionTranslationFilter@5dc3236, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19c803e4]
+[2023-01-20 13:49:01:1671][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:49:01:1671][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:49:02:1864][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:49:02:1876][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:49:02:1890][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:49:02:1901][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 1.736 seconds (JVM running for 2.486)
+[2023-01-20 13:57:18:498040][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+[2023-01-20 13:57:18:498163][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:18:498163][Thread-5] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 13:57:18:498170][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:18:498171][Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:18:498244][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 14292 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:57:18:498245][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:57:18:498456][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:57:18:498457][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:18:498457][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:57:18:498457][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:57:18:498490][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:57:18:498490][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 243 ms
+[2023-01-20 13:57:18:498587][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6ddba5b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17edd948, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d355f59, org.springframework.security.web.header.HeaderWriterFilter@45c16f30, org.springframework.web.filter.CorsFilter@260180e3, org.springframework.security.web.authentication.logout.LogoutFilter@3ba4b1be, com.uni.reactpro.jwt.JwtFilter@53fd4bdf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@241364e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a6537b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@38993c99, org.springframework.security.web.session.SessionManagementFilter@6ac78313, org.springframework.security.web.access.ExceptionTranslationFilter@1323519a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d35829a]
+[2023-01-20 13:57:18:498588][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:57:18:498588][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:57:18:498641][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:57:18:498646][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:18:498647][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:57:18:498650][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.437 seconds (JVM running for 499.235)
+[2023-01-20 13:57:18:498651][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 13:57:20:500076][File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+[2023-01-20 13:57:20:500194][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:20:500194][Thread-7] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2023-01-20 13:57:20:500196][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:20:500198][Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:20:500253][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 14292 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:57:20:500253][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:57:20:500452][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:57:20:500453][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:20:500453][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:57:20:500453][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:57:20:500464][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:57:20:500464][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 209 ms
+[2023-01-20 13:57:20:500589][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1b4e521c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46a4c083, org.springframework.security.web.context.SecurityContextPersistenceFilter@1874ff21, org.springframework.security.web.header.HeaderWriterFilter@78e0df58, org.springframework.web.filter.CorsFilter@589a1669, org.springframework.security.web.authentication.logout.LogoutFilter@383c790c, com.uni.reactpro.jwt.JwtFilter@3384509b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@147f870, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f23ed1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ab33a45, org.springframework.security.web.session.SessionManagementFilter@48f61474, org.springframework.security.web.access.ExceptionTranslationFilter@709d26f1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54f7e049]
+[2023-01-20 13:57:20:500591][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:57:20:500591][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:57:20:500646][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:57:20:500651][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:20:500652][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:57:20:500655][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 0.429 seconds (JVM running for 501.24)
+[2023-01-20 13:57:20:500657][restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[2023-01-20 13:57:33:659][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 14196 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:57:33:661][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:57:33:711][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 13:57:33:712][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 13:57:33:712][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 13:57:34:1807][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:57:34:1834][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:34:1835][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:57:34:1835][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:57:34:1901][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:57:34:1901][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1188 ms
+[2023-01-20 13:57:35:2391][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d9097b2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2abf8631, org.springframework.security.web.context.SecurityContextPersistenceFilter@61d5c98e, org.springframework.security.web.header.HeaderWriterFilter@156b58d8, org.springframework.web.filter.CorsFilter@19bbf880, org.springframework.security.web.authentication.logout.LogoutFilter@3c6ae395, com.uni.reactpro.jwt.JwtFilter@4538a9ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fc24992, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@773f5aec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c3c8bbf, org.springframework.security.web.session.SessionManagementFilter@40410ac9, org.springframework.security.web.access.ExceptionTranslationFilter@142536f7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@422eda20]
+[2023-01-20 13:57:35:2395][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:57:35:2395][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:57:35:2619][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:57:35:2631][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:57:35:2644][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:57:35:2652][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 2.483 seconds (JVM running for 3.143)
+[2023-01-20 13:59:45:581][restartedMain] INFO  com.uni.reactpro.Application - Starting Application using Java 11.0.2 on DESKTOP-SIG7LQ4 with PID 7936 (C:\edu\restapi\02_jwtpro\out\production\classes started by MSI in C:\edu\restapi\02_jwtpro)
+[2023-01-20 13:59:45:583][restartedMain] INFO  com.uni.reactpro.Application - No active profile set, falling back to 1 default profile: "default"
+[2023-01-20 13:59:45:642][restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\MSI\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.5.0.0\eb13f0948ca8675f71d59b5e8a1129d4c6189e7a\ojdbc8-21.5.0.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.5.0.0/eb13f0948ca8675f71d59b5e8a1129d4c6189e7a/oraclepki.jar
+[2023-01-20 13:59:45:643][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-01-20 13:59:45:643][restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-01-20 13:59:46:1745][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+[2023-01-20 13:59:46:1764][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:59:46:1764][restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-01-20 13:59:46:1765][restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+[2023-01-20 13:59:46:1832][restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-01-20 13:59:46:1832][restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1189 ms
+[2023-01-20 13:59:47:2224][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@283c24d7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@119330f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@7cb4bd82, org.springframework.security.web.header.HeaderWriterFilter@1cb67eef, org.springframework.web.filter.CorsFilter@3a0e72e8, org.springframework.security.web.authentication.logout.LogoutFilter@56afb9e1, com.uni.reactpro.jwt.JwtFilter@3c490478, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@664a7154, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@530747d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@751a95ba, org.springframework.security.web.session.SessionManagementFilter@6e139426, org.springframework.security.web.access.ExceptionTranslationFilter@c57818, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5208ef9e]
+[2023-01-20 13:59:47:2226][restartedMain] WARN  o.s.s.c.a.web.builders.WebSecurity - You are asking Spring Security to ignore Ant [pattern='/productimgs/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2023-01-20 13:59:47:2226][restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/productimgs/**']
+[2023-01-20 13:59:47:2457][restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[2023-01-20 13:59:47:2471][restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+[2023-01-20 13:59:47:2486][restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path ''
+[2023-01-20 13:59:47:2497][restartedMain] INFO  com.uni.reactpro.Application - Started Application in 2.303 seconds (JVM running for 3.196)
+[2023-01-20 14:00:50:65914][http-nio-8090-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-01-20 14:00:50:65915][http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-01-20 14:00:50:65916][http-nio-8090-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2023-01-20 14:00:50:65929][http-nio-8090-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:00:50:65929][http-nio-8090-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : null
+[2023-01-20 14:00:51:65944][http-nio-8090-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2023-01-20 14:01:30:105044][http-nio-8090-exec-3] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:01:30:105044][http-nio-8090-exec-3] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : null
+[2023-01-20 14:01:30:105045][http-nio-8090-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2023-01-20 14:01:53:128743][http-nio-8090-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:01:53:128743][http-nio-8090-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : null
+[2023-01-20 14:01:53:128793][http-nio-8090-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 3, column: 6]]
+[2023-01-20 14:02:16:151826][http-nio-8090-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:02:16:151826][http-nio-8090-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : null
+[2023-01-20 14:02:16:151851][http-nio-8090-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[2023-01-20 14:02:17:152192][http-nio-8090-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[2023-01-20 14:02:17:152207][http-nio-8090-exec-6] INFO  c.u.r.member.service.AuthService - [AuthService] Login Start ===================================
+[2023-01-20 14:02:17:152207][http-nio-8090-exec-6] INFO  c.u.r.member.service.AuthService - [AuthService] MemberDto{memberCode=null, memberId='admin', memberPassword='1234', memberName='null', memberEmail='null', memberRole='null', authorities=null}
+[2023-01-20 14:02:17:152551][http-nio-8090-exec-6] INFO  com.uni.reactpro.jwt.TokenProvider - [TokenProvider] generateTokenDto Start ===================================
+[2023-01-20 14:02:17:152552][http-nio-8090-exec-6] INFO  com.uni.reactpro.jwt.TokenProvider - [TokenProvider] ROLE_ADMIN
+[2023-01-20 14:02:17:152587][http-nio-8090-exec-6] INFO  c.u.r.member.service.AuthService - [AuthService] tokenDto TokenDto{grantType='bearer', memberName='관리자', accessToken='eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlsiUk9MRV9BRE1JTiJdLCJleHAiOjE2NzQxOTI3Mzd9.833QD9ByolryDzIUpBZT63XiqAxJAbau5AtAzx6nqiCMB6pL8AszaVsEiN4KpSc1B-t5AK4bVJr_MnSCEFHVUw', accessTokenExpiresIn=1674192737616}
+[2023-01-20 14:02:17:152593][http-nio-8090-exec-6] INFO  c.u.r.member.service.AuthService - [AuthService] Login End ===================================
+[2023-01-20 14:04:39:294935][http-nio-8090-exec-8] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:04:39:294936][http-nio-8090-exec-8] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : null
+[2023-01-20 14:04:40:294941][http-nio-8090-exec-8] INFO  c.u.r.p.c.ProductController - [ProductController] selectProductListWithPaging : 1
+[2023-01-20 14:04:40:294945][http-nio-8090-exec-8] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductTotal Start ===================================
+[2023-01-20 14:04:40:294950][http-nio-8090-exec-8] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductTotal End ===================================
+[2023-01-20 14:04:40:294957][http-nio-8090-exec-8] INFO  c.u.r.p.c.ProductController - [ProductController] selectCriteria : SelectCriteria [pageNo=1, totalCount=21, limit=10, buttonAmount=5, maxPage=3, startPage=1, endPage=3, startRow=1, endRow=10]
+[2023-01-20 14:04:40:294957][http-nio-8090-exec-8] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductListWithPaging Start ===================================
+[2023-01-20 14:04:40:294965][http-nio-8090-exec-8] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductListWithPaging End ===================================
+[2023-01-20 14:05:58:373511][http-nio-8090-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:05:58:373512][http-nio-8090-exec-2] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlsiUk9MRV9BRE1JTiJdLCJleHAiOjE2NzQxOTI3Mzd9.833QD9ByolryDzIUpBZT63XiqAxJAbau5AtAzx6nqiCMB6pL8AszaVsEiN4KpSc1B-t5AK4bVJr_MnSCEFHVUw
+[2023-01-20 14:05:58:373535][http-nio-8090-exec-2] INFO  com.uni.reactpro.jwt.TokenProvider - [TokenProvider] authorities : [[ROLE_ADMIN]]
+[2023-01-20 14:05:58:373538][http-nio-8090-exec-2] INFO  c.u.r.m.s.CustomUserDetailsService - [CustomUserDetailsService] ===================================
+[2023-01-20 14:05:58:373538][http-nio-8090-exec-2] INFO  c.u.r.m.s.CustomUserDetailsService - [CustomUserDetailsService] loadUserByUsername admin
+[2023-01-20 14:05:58:373560][http-nio-8090-exec-2] INFO  c.u.r.p.c.ProductController - [ProductController] PostMapping productDto : ProductDto{productCode=null, productName='null', productPrice='null', productDescription='null', productOrderable='null', categoryCode=null, categoryName='null', productImage=null, productImageUrl='null', productStock=null}
+[2023-01-20 14:05:58:373562][http-nio-8090-exec-2] INFO  c.u.r.p.service.ProductService - [ProductService] insertProduct Start ===================================
+[2023-01-20 14:05:58:373562][http-nio-8090-exec-2] INFO  c.u.r.p.service.ProductService - [ProductService] productDto : ProductDto{productCode=null, productName='null', productPrice='null', productDescription='null', productOrderable='null', categoryCode=null, categoryName='null', productImage=null, productImageUrl='null', productStock=null}
+[2023-01-20 14:05:58:373563][http-nio-8090-exec-2] INFO  c.u.r.p.service.ProductService - [ProductService] IMAGE_DIR : /productimgs/
+[2023-01-20 14:05:58:373563][http-nio-8090-exec-2] INFO  c.u.r.p.service.ProductService - [ProductService] imageName : c350bfcee8bf45978d4f5fbb9759906d
+[2023-01-20 14:05:58:373571][http-nio-8090-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.uni.reactpro.util.FileUploadUtils.saveFile(FileUploadUtils.java:26)
+	at com.uni.reactpro.product.service.ProductService.insertProduct(ProductService.java:141)
+	at com.uni.reactpro.product.service.ProductService$$FastClassBySpringCGLIB$$fc981053.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.uni.reactpro.product.service.ProductService$$EnhancerBySpringCGLIB$$51cd9f5b.insertProduct(<generated>)
+	at com.uni.reactpro.product.controller.ProductController.insertProduct(ProductController.java:103)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.uni.reactpro.jwt.JwtFilter.doFilterInternal(JwtFilter.java:51)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2023-01-20 14:06:18:393394][http-nio-8090-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:06:18:393394][http-nio-8090-exec-5] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlsiUk9MRV9BRE1JTiJdLCJleHAiOjE2NzQxOTI3Mzd9.833QD9ByolryDzIUpBZT63XiqAxJAbau5AtAzx6nqiCMB6pL8AszaVsEiN4KpSc1B-t5AK4bVJr_MnSCEFHVUw
+[2023-01-20 14:06:18:393399][http-nio-8090-exec-5] INFO  com.uni.reactpro.jwt.TokenProvider - [TokenProvider] authorities : [[ROLE_ADMIN]]
+[2023-01-20 14:06:18:393403][http-nio-8090-exec-5] INFO  c.u.r.m.s.CustomUserDetailsService - [CustomUserDetailsService] ===================================
+[2023-01-20 14:06:18:393403][http-nio-8090-exec-5] INFO  c.u.r.m.s.CustomUserDetailsService - [CustomUserDetailsService] loadUserByUsername admin
+[2023-01-20 14:06:18:393407][http-nio-8090-exec-5] INFO  c.u.r.p.c.ProductController - [ProductController] selectProductListWithPaging : 1
+[2023-01-20 14:06:18:393407][http-nio-8090-exec-5] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductTotal Start ===================================
+[2023-01-20 14:06:18:393408][http-nio-8090-exec-5] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductTotal End ===================================
+[2023-01-20 14:06:18:393408][http-nio-8090-exec-5] INFO  c.u.r.p.c.ProductController - [ProductController] selectCriteria : SelectCriteria [pageNo=1, totalCount=21, limit=10, buttonAmount=5, maxPage=3, startPage=1, endPage=3, startRow=1, endRow=10]
+[2023-01-20 14:06:18:393408][http-nio-8090-exec-5] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductListWithPaging Start ===================================
+[2023-01-20 14:06:18:393413][http-nio-8090-exec-5] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductListWithPaging End ===================================
+[2023-01-20 14:06:24:399538][http-nio-8090-exec-4] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:06:24:399539][http-nio-8090-exec-4] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : null
+[2023-01-20 14:06:28:403618][http-nio-8090-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:06:28:403618][http-nio-8090-exec-6] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlsiUk9MRV9BRE1JTiJdLCJleHAiOjE2NzQxOTI3Mzd9.833QD9ByolryDzIUpBZT63XiqAxJAbau5AtAzx6nqiCMB6pL8AszaVsEiN4KpSc1B-t5AK4bVJr_MnSCEFHVUw
+[2023-01-20 14:06:28:403624][http-nio-8090-exec-6] INFO  com.uni.reactpro.jwt.TokenProvider - [TokenProvider] authorities : [[ROLE_ADMIN]]
+[2023-01-20 14:06:28:403626][http-nio-8090-exec-6] INFO  c.u.r.m.s.CustomUserDetailsService - [CustomUserDetailsService] ===================================
+[2023-01-20 14:06:28:403627][http-nio-8090-exec-6] INFO  c.u.r.m.s.CustomUserDetailsService - [CustomUserDetailsService] loadUserByUsername admin
+[2023-01-20 14:06:28:403632][http-nio-8090-exec-6] INFO  c.u.r.p.c.ProductController - [ProductController] selectProductListWithPaging : 1
+[2023-01-20 14:06:28:403632][http-nio-8090-exec-6] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductTotal Start ===================================
+[2023-01-20 14:06:28:403633][http-nio-8090-exec-6] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductTotal End ===================================
+[2023-01-20 14:06:28:403633][http-nio-8090-exec-6] INFO  c.u.r.p.c.ProductController - [ProductController] selectCriteria : SelectCriteria [pageNo=1, totalCount=21, limit=10, buttonAmount=5, maxPage=3, startPage=1, endPage=3, startRow=1, endRow=10]
+[2023-01-20 14:06:28:403633][http-nio-8090-exec-6] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductListWithPaging Start ===================================
+[2023-01-20 14:06:28:403636][http-nio-8090-exec-6] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductListWithPaging End ===================================
+[2023-01-20 14:06:44:418967][http-nio-8090-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:06:44:418968][http-nio-8090-exec-7] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : null
+[2023-01-20 14:06:59:434901][http-nio-8090-exec-8] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] doFilterInternal START ===================================
+[2023-01-20 14:06:59:434902][http-nio-8090-exec-8] INFO  o.s.web.filter.OncePerRequestFilter - [JwtFilter] jwt : eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOlsiUk9MRV9BRE1JTiJdLCJleHAiOjE2NzQxOTI3Mzd9.833QD9ByolryDzIUpBZT63XiqAxJAbau5AtAzx6nqiCMB6pL8AszaVsEiN4KpSc1B-t5AK4bVJr_MnSCEFHVUw
+[2023-01-20 14:06:59:434906][http-nio-8090-exec-8] INFO  com.uni.reactpro.jwt.TokenProvider - [TokenProvider] authorities : [[ROLE_ADMIN]]
+[2023-01-20 14:06:59:434909][http-nio-8090-exec-8] INFO  c.u.r.m.s.CustomUserDetailsService - [CustomUserDetailsService] ===================================
+[2023-01-20 14:06:59:434909][http-nio-8090-exec-8] INFO  c.u.r.m.s.CustomUserDetailsService - [CustomUserDetailsService] loadUserByUsername admin
+[2023-01-20 14:06:59:434913][http-nio-8090-exec-8] INFO  c.u.r.p.c.ProductController - [ProductController] selectProductListWithPagingForAdmin : 1
+[2023-01-20 14:06:59:434913][http-nio-8090-exec-8] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductTotal Start ===================================
+[2023-01-20 14:06:59:434915][http-nio-8090-exec-8] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductTotal End ===================================
+[2023-01-20 14:06:59:434915][http-nio-8090-exec-8] INFO  c.u.r.p.c.ProductController - [ProductController] selectCriteria : SelectCriteria [pageNo=1, totalCount=21, limit=10, buttonAmount=5, maxPage=3, startPage=1, endPage=3, startRow=1, endRow=10]
+[2023-01-20 14:06:59:434916][http-nio-8090-exec-8] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductListWithPagingForAdmin Start ===================================
+[2023-01-20 14:06:59:434921][http-nio-8090-exec-8] INFO  c.u.r.p.service.ProductService - [ProductService] selectProductListWithPagingForAdmin End ===================================
