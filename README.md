@@ -1,4 +1,4 @@
-# reactpro
+# Collectors of Galaxy
 
 ## todolist
 ### 230121~24
