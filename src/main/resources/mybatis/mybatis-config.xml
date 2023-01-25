@@ -12,14 +12,12 @@
 	</settings>
 
 	<typeAliases>
-		<typeAlias alias="ProductDto" type="com.uni.reactpro.product.dto.ProductDto"/>
-		<typeAlias alias="MemberDto" type="com.uni.reactpro.member.dto.MemberDto"/>
+		<typeAlias alias="ProductDto" type="com.cymon.cog.product.dto.ProductDto"/>
+		<typeAlias alias="MemberDto" type="com.cymon.cog.member.dto.MemberDto"/>
 	</typeAliases>
 
 	<mappers>
 		<mapper resource="MemberMapper.xml" />
-		<mapper resource="ReviewMapper.xml" />
 		<mapper resource="ProductMapper.xml" />
-		<mapper resource="PurchaseMapper.xml" />
 	</mappers>
 </configuration>
