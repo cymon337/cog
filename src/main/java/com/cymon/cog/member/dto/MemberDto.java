@@ -70,17 +70,17 @@ public class MemberDto implements UserDetails {
     private Collection<? extends GrantedAuthority> authorities;
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+        return this.authorities;
     }
 
     @Override
     public String getPassword() {
-        return null;
+        return memberPwd;
     }
 
     @Override
     public String getUsername() {
-        return null;
+        return memberId;
     }
 
     @Override

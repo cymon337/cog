@@ -47,6 +47,7 @@ public class JwtFilter extends OncePerRequestFilter {//OncePerRequestFilter μΈν
             if (StringUtils.hasText(jwt) && tokenProvider.validateToken(jwt)) {
                 Authentication authentication = tokenProvider.getAuthentication(jwt);
                 SecurityContextHolder.getContext().setAuthentication(authentication);
+                log.info("setAuthentication");
             }
             filterChain.doFilter(request, response);
         } catch (RuntimeException e) {
@@ -62,6 +63,7 @@ public class JwtFilter extends OncePerRequestFilter {//OncePerRequestFilter μΈν
     }
 
     public String convertObjectToJson(Object object) throws JsonProcessingException {
+        log.info("convertObjectToJson ={}", object);
         if (object == null) {
             return null;
         }

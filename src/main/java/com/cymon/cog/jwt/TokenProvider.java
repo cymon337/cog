@@ -99,6 +99,7 @@ public class TokenProvider {
         // UserDetails 객체를 만들어서 Authentication 리턴
         UserDetails userDetails = userDetailsService.loadUserByUsername(this.getUserId(accessToken));
 
+//        log.info("getAuthentication UserDetails ={}", userDetails.toString());
         //UserDetails 객체를 생생성해서 UsernamePasswordAuthenticationToken 형태로 리턴, SecurityContext 를 사용하기 위한 절차
         //SecurityContext가 Authentication  객체를 저장하고 있기 때문이다 
         return new UsernamePasswordAuthenticationToken(userDetails, "", userDetails.getAuthorities());
