@@ -6,5 +6,5 @@ import org.apache.ibatis.annotations.Mapper;
 public interface MypageMapper {
 
 
-
+    int updateMemberPwd(String updatePwd,String loginId);
 }

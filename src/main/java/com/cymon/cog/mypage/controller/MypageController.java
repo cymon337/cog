@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,11 +22,12 @@ public class MypageController {
     private final MypageService mypageService;
 
     @PutMapping("/member-info/password")
-    public ResponseEntity<ResponseDto> updateMemberPwd(@RequestBody MemberDto memberDto) {
+    public ResponseEntity<ResponseDto> updateMemberPwd(@RequestBody String updatePwd, @AuthenticationPrincipal MemberDto loginMember) {
+        String loginId = loginMember.getMemberId();
+        log.info("updateMemberPwd loginId={}", loginId);
+        log.info("updateMemberPwd updatePwd={}", updatePwd);
 
-        log.info("MypageComtroller={}", "updateMemberPwd");
-
-        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, "비밀번호 변경 성공", mypageService.updateMemberPwd(memberDto)));
+        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, "비밀번호 변경 성공", mypageService.updateMemberPwd(updatePwd , loginId)));
     }
 
 
