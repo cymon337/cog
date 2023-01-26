@@ -8,4 +8,8 @@ import java.util.List;
 @Mapper
 public interface GalleryManagerMapper {
     List<ItemDto> selectItems();
+
+    int registItems(ItemDto registItem);
+
+    ItemDto findLatestItem();
 }
