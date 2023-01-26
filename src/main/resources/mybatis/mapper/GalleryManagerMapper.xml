@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cymon.cog.gallery.dao.GalleryMapper">
+
+    <select id="selectItems" resultType="ItemDto">
+        SELECT
+            ITEM_NO
+            , ITEM_LOCATION
+            , ITEM_REG_DATE
+            , ITEM_STATUS
+        FROM ITEMS
+        WHERE ITEM_STATUS = 'Y'
+        ORDER BY ITEM_NO DESC
+    </select>
+
+<!--    <select id="selectCollectionByIdAndItemNo" resultType="CollectionDto">-->
+<!--        SELECT-->
+<!--            CLT_NO-->
+<!--             ,  MEMBER_ID-->
+<!--             ,  ITEM_NO-->
+<!--             ,  CLT_REG_DATE-->
+<!--        FROM COLLECTIONS-->
+<!--        WHERE-->
+<!--            MEMBER_ID = #{memberId}-->
+<!--            AND ITEM_NO = #{itemNo}-->
+<!--    </select>-->
+
+<!--    <insert id="registCollection" parameterType="CollectionDto">-->
+<!--        INSERT INTO COLLECTIONS-->
+<!--        (-->
+<!--        CLT_NO-->
+<!--        ,  MEMBER_ID-->
+<!--        ,  ITEM_NO-->
+<!--        ,  CLT_REG_DATE-->
+<!--        )-->
+<!--        VALUES-->
+<!--            (-->
+<!--                SEQ_CLT_NO.NEXTVAL,-->
+<!--                #{memberId},-->
+<!--                #{itemNo},-->
+<!--                DEFAULT-->
+<!--            )-->
+<!--    </insert>-->
+
+<!--    <delete id="deleteCollection" parameterType="CollectionDto">-->
+<!--        DELETE FROM COLLECTIONS-->
+<!--        WHERE-->
+<!--            MEMBER_ID = #{memberId}-->
+<!--            AND ITEM_NO = #{itemNo}-->
+<!--    </delete>-->
+
+
+</mapper>

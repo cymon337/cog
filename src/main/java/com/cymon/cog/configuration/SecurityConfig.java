@@ -75,9 +75,9 @@ public class SecurityConfig  {
                 .authorizeRequests()// http servletRequest 를 사용하는 요청들에 대한 접근제한을 설정
                 .antMatchers(HttpMethod.OPTIONS, "/**").permitAll()
                 .antMatchers("/auth/**").permitAll()// 로그인, 회원가입 API 는 토큰이 없는 상태에서 요청이 들어오기 때문에 permitAll 설정
-//                .antMatchers("/api/v1/products/**").permitAll()// 제품 누구나 접근가능
-//                .antMatchers("/api/v1/reviews/**").permitAll()// 리뷰도 누구나 접근가능
-                .antMatchers("/api/v1/mypage/**").hasAnyAuthority("USER","ADMIN") // 마이페이지 유저만
+                .antMatchers("/api/v1/gellery/**").permitAll()// 갤러리 누구나 접근가능
+                .antMatchers("/api/v1/gallery-manager/**").hasAuthority("ADMIN")
+                .antMatchers("/api/v1/mypage/**").hasAnyAuthority("USER","ADMIN") // 마이페이지 USER, ADMIN
 //                .antMatchers("/api/**").hasAnyRole("USER", "ADMIN") // 나머지 API 는 전부 인증 필요
                 .and()
                 .cors()
