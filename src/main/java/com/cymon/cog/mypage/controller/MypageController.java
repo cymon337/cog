@@ -8,10 +8,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
 
 @Slf4j
 @RestController
@@ -22,14 +21,35 @@ public class MypageController {
     private final MypageService mypageService;
 
     @PutMapping("/member-info/password")
-    public ResponseEntity<ResponseDto> updateMemberPwd(@RequestBody String updatePwd, @AuthenticationPrincipal MemberDto loginMember) {
-        String loginId = loginMember.getMemberId();
-        log.info("updateMemberPwd loginId={}", loginId);
-        log.info("updateMemberPwd updatePwd={}", updatePwd);
+    public ResponseEntity<ResponseDto> updateMemberPwd(@RequestBody HashMap<String,String> updatePwd, @AuthenticationPrincipal MemberDto loginMember) {
+        String charSequencePwd = updatePwd.get("updatePwd");
 
-        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, "비밀번호 변경 성공", mypageService.updateMemberPwd(updatePwd , loginId)));
+        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, "비밀번호 변경 성공", mypageService.updateMemberPwd(charSequencePwd , loginMember)));
     }
 
+    @PutMapping("/member-info/profile")
+    public ResponseEntity<ResponseDto> updateMemberInfo(@RequestBody MemberDto updateMember, @AuthenticationPrincipal MemberDto loginMember) {
+        log.info("updateMember={}",updateMember);
+        loginMember.setMemberEmail(updateMember.getMemberEmail());
+        loginMember.setMemberMobile(updateMember.getMemberMobile());
+
+        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, "회원정보 변경 성공", mypageService.updateMemberInfo(loginMember)));
+    }
+
+    @PostMapping("/member-info/password")
+    public ResponseEntity<ResponseDto> checkMemberPwd(@RequestBody HashMap<String,String> checkPwd, @AuthenticationPrincipal MemberDto loginMember) {
+        String charSequencePwd = checkPwd.get("checkPwd");
+        log.info("charSequencePwd={}", charSequencePwd);
+        log.info("loginMember={}", loginMember);
+
+        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, "비밀번호 확인 성공", mypageService.checkMemberPwd(charSequencePwd , loginMember)));
+    }
+
+    @DeleteMapping("/member-info")
+    public ResponseEntity<ResponseDto> deleteMember(@AuthenticationPrincipal MemberDto loginMember) {
+
+        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, "회원탈퇴 성공", mypageService.deleteMember(loginMember)));
+    }
 
 
 }
