@@ -30569,3 +30569,15 @@ java.io.EOFException: null
 [2023-01-26 17:44:38:92415][RMI TCP Connection(4)-192.168.0.14] DEBUG sun.rmi.transport.tcp - RMI TCP Connection(4)-192.168.0.14: close connection
 [2023-01-26 17:44:41:95580][HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
 [2023-01-26 17:44:41:95580][HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2023-01-26 17:45:07:121656][Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1674722707653 sessioncount 0
+[2023-01-26 17:45:07:121656][Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 0 expired sessions: 0
+[2023-01-26 17:45:11:125585][HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2023-01-26 17:45:11:125585][HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2023-01-26 17:45:41:155598][HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2023-01-26 17:45:41:155598][HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2023-01-26 17:46:07:181687][Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1674722767684 sessioncount 0
+[2023-01-26 17:46:07:181688][Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 1 expired sessions: 0
+[2023-01-26 17:46:11:185605][HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2023-01-26 17:46:11:185605][HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+[2023-01-26 17:46:41:215617][HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2023-01-26 17:46:41:215617][HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
