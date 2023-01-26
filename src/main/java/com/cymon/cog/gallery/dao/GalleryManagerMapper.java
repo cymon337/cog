@@ -12,4 +12,8 @@ public interface GalleryManagerMapper {
     int registItems(ItemDto registItem);
 
     ItemDto findLatestItem();
+
+    int updateItemById(ItemDto updateItem);
+
+    ItemDto findItemById(ItemDto updateItem);
 }

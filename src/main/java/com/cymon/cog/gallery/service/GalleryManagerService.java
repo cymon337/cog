@@ -36,8 +36,6 @@ public class GalleryManagerService {
         int result = galleryManagerMapper.registItems(registItem);
 
         ItemDto lastItem = galleryManagerMapper.findLatestItem();
-        log.info("==== registItem.getItemLocation() ={}", registItem.getItemLocation());
-        log.info("==== galleryManagerMapper.findLatestItem() ={}", lastItem.getItemLocation());
 
         if (!Objects.equals(lastItem.getItemLocation(), registItem.getItemLocation())) {
             throw new GalleryManagerException("관리자 아이템 등록 에러, 추가한 아이템의 itemLocation 이 최신항목과 일치하지 않습니다!");
@@ -50,6 +48,17 @@ public class GalleryManagerService {
         return responseMap;
     }
 
+    @Transactional
+    public Object updateItems(ItemDto updateItem) {
 
+        int result = galleryManagerMapper.updateItemById(updateItem);
 
+        ItemDto foundItem = galleryManagerMapper.findItemById(updateItem);
+
+        Map<String, Object> responseMap = new HashMap<>();
+        responseMap.put("updateItem", foundItem);
+        responseMap.put("registResult", result);
+
+        return responseMap;
+    }
 }

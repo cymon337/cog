@@ -33,5 +33,12 @@ public class GalleryManagerController {
         return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, admin.getMemberId() +" 관리자 갤러리 아이템 등록 성공 ", galleryManagerService.registItems(registItem)));
     }
 
+    @PutMapping("/items")
+    public ResponseEntity<ResponseDto> updateItems(@RequestBody ItemDto updateItem, @AuthenticationPrincipal MemberDto admin) {
+        log.info("registItem ={}", updateItem);
+
+        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, admin.getMemberId() +" 관리자 갤러리 아이템 등록 성공 ", galleryManagerService.updateItems(updateItem)));
+    }
+
 
 }
