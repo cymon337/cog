@@ -56,7 +56,7 @@
             )
     </insert>
 
-    <update id="updateItemById" parameterType="MemberDto">
+    <update id="updateItemById" parameterType="ItemDto">
         UPDATE ITEMS
         SET
             ITEM_LOCATION = #{itemLocation},
@@ -64,6 +64,12 @@
         WHERE
             ITEM_NO = #{itemNo}
     </update>
+
+    <delete id="deleteItems" parameterType="ItemDto">
+        DELETE FROM ITEMS
+        WHERE
+            ITEM_NO = #{itemNo}
+    </delete>
 
 
 

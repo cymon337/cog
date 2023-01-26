@@ -57,8 +57,26 @@ public class GalleryManagerService {
 
         Map<String, Object> responseMap = new HashMap<>();
         responseMap.put("updateItem", foundItem);
-        responseMap.put("registResult", result);
+        responseMap.put("updateResult", result);
 
         return responseMap;
+    }
+
+
+    public Object deleteItems(ItemDto deleteItem) {
+
+        ItemDto foundItem = galleryManagerMapper.findItemById(deleteItem);
+        if (foundItem == null) {
+            throw new GalleryManagerException("아이템이 존재하지 않습니다!");
+        }
+
+        int result = galleryManagerMapper.deleteItems(deleteItem);
+
+        Map<String, Object> responseMap = new HashMap<>();
+        responseMap.put("deleteItem", foundItem);
+        responseMap.put("deleteResult", result);
+
+        return responseMap;
+
     }
 }

@@ -35,9 +35,16 @@ public class GalleryManagerController {
 
     @PutMapping("/items")
     public ResponseEntity<ResponseDto> updateItems(@RequestBody ItemDto updateItem, @AuthenticationPrincipal MemberDto admin) {
-        log.info("registItem ={}", updateItem);
+        log.info("updateItems ={}", updateItem);
 
-        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, admin.getMemberId() +" 관리자 갤러리 아이템 등록 성공 ", galleryManagerService.updateItems(updateItem)));
+        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, admin.getMemberId() +" 관리자 갤러리 아이템 수정 성공 ", galleryManagerService.updateItems(updateItem)));
+    }
+
+    @DeleteMapping("/items")
+    public ResponseEntity<ResponseDto> deleteItems(@RequestBody ItemDto deleteItem, @AuthenticationPrincipal MemberDto admin) {
+        log.info("deleteItem ={}", deleteItem);
+
+        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, admin.getMemberId() +" 관리자 갤러리 아이템 삭제 성공 ", galleryManagerService.deleteItems(deleteItem)));
     }
 
 

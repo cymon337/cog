@@ -16,4 +16,6 @@ public interface GalleryManagerMapper {
     int updateItemById(ItemDto updateItem);
 
     ItemDto findItemById(ItemDto updateItem);
+
+    int deleteItems(ItemDto deleteItem);
 }
