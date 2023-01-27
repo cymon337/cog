@@ -79,4 +79,5 @@ public class GalleryManagerService {
         return responseMap;
 
     }
+
 }
