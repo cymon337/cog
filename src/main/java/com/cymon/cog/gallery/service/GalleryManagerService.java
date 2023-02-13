@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Objects;
 
 @Slf4j
 @Service
@@ -37,9 +36,6 @@ public class GalleryManagerService {
 
         ItemDto lastItem = galleryManagerMapper.findLatestItem();
 
-        if (!Objects.equals(lastItem.getItemLocation(), registItem.getItemLocation())) {
-            throw new GalleryManagerException("관리자 아이템 등록 에러, 추가한 아이템의 itemLocation 이 최신항목과 일치하지 않습니다!");
-        }
 
         Map<String, Object> responseMap = new HashMap<>();
         responseMap.put("lastItem", lastItem);
