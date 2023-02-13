@@ -7,68 +7,71 @@
     <select id="selectItems" resultType="ItemDto">
         SELECT
             ITEM_NO
-            , ITEM_LOCATION
-            , ITEM_REG_DATE
-            , ITEM_STATUS
-        FROM ITEMS
+             ,ITEM_REG_DATE
+             ,ITEM_STATUS
+             ,T_IMG_PATH
+             ,F_IMG_PATH
+             ,B_IMG_PATH
+             ,D_IMG_PATH
+        FROM VIEW_ITEMS
         ORDER BY ITEM_NO DESC
     </select>
 
-    <select id="findItemById" resultType="ItemDto">
-        SELECT
-            ITEM_NO
-             , ITEM_LOCATION
-             , ITEM_REG_DATE
-             , ITEM_STATUS
-        FROM ITEMS
-        WHERE ITEM_NO = #{itemNo}
-    </select>
+<!--    <select id="findItemById" resultType="ItemDto">-->
+<!--        SELECT-->
+<!--            ITEM_NO-->
+<!--             , ITEM_LOCATION-->
+<!--             , ITEM_REG_DATE-->
+<!--             , ITEM_STATUS-->
+<!--        FROM ITEMS-->
+<!--        WHERE ITEM_NO = #{itemNo}-->
+<!--    </select>-->
 
-    <select id="findLatestItem" resultType="ItemDto">
-        SELECT
-            ITEM_NO
-             , ITEM_LOCATION
-             , ITEM_REG_DATE
-             , ITEM_STATUS
-        FROM ITEMS
-        WHERE
-                ITEM_NO =
-                (SELECT
-                     MAX(ITEM_NO)
-                 FROM ITEMS)
-    </select>
+<!--    <select id="findLatestItem" resultType="ItemDto">-->
+<!--        SELECT-->
+<!--            ITEM_NO-->
+<!--             , ITEM_LOCATION-->
+<!--             , ITEM_REG_DATE-->
+<!--             , ITEM_STATUS-->
+<!--        FROM ITEMS-->
+<!--        WHERE-->
+<!--                ITEM_NO =-->
+<!--                (SELECT-->
+<!--                     MAX(ITEM_NO)-->
+<!--                 FROM ITEMS)-->
+<!--    </select>-->
 
-    <insert id="registItems" parameterType="ItemDto">
-        INSERT INTO ITEMS
-        (
-            ITEM_NO
-            , ITEM_LOCATION
-            , ITEM_REG_DATE
-            , ITEM_STATUS
-        )
-        VALUES
-            (
-                SEQ_ITEMS_NO.NEXTVAL,
-                #{itemLocation},
-                DEFAULT,
-                DEFAULT
-            )
-    </insert>
+<!--    <insert id="registItems" parameterType="ItemDto">-->
+<!--        INSERT INTO ITEMS-->
+<!--        (-->
+<!--            ITEM_NO-->
+<!--            , ITEM_LOCATION-->
+<!--            , ITEM_REG_DATE-->
+<!--            , ITEM_STATUS-->
+<!--        )-->
+<!--        VALUES-->
+<!--            (-->
+<!--                SEQ_ITEMS_NO.NEXTVAL,-->
+<!--                #{itemLocation},-->
+<!--                DEFAULT,-->
+<!--                DEFAULT-->
+<!--            )-->
+<!--    </insert>-->
 
-    <update id="updateItemById" parameterType="ItemDto">
-        UPDATE ITEMS
-        SET
-            ITEM_LOCATION = #{itemLocation},
-            ITEM_STATUS = #{itemStatus}
-        WHERE
-            ITEM_NO = #{itemNo}
-    </update>
+<!--    <update id="updateItemById" parameterType="ItemDto">-->
+<!--        UPDATE ITEMS-->
+<!--        SET-->
+<!--            ITEM_STATUS = #{itemStatus},-->
 
-    <delete id="deleteItems" parameterType="ItemDto">
-        DELETE FROM ITEMS
-        WHERE
-            ITEM_NO = #{itemNo}
-    </delete>
+<!--        WHERE-->
+<!--            ITEM_NO = #{itemNo}-->
+<!--    </update>-->
+
+<!--    <delete id="deleteItems" parameterType="ItemDto">-->
+<!--        DELETE FROM ITEMS-->
+<!--        WHERE-->
+<!--            ITEM_NO = #{itemNo}-->
+<!--    </delete>-->
 
 
 

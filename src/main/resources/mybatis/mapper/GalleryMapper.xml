@@ -7,10 +7,13 @@
     <select id="selectItems" resultType="ItemDto">
         SELECT
             ITEM_NO
-            , ITEM_LOCATION
-            , ITEM_REG_DATE
-            , ITEM_STATUS
-        FROM ITEMS
+             ,ITEM_REG_DATE
+             ,ITEM_STATUS
+             ,T_IMG_PATH
+             ,F_IMG_PATH
+             ,B_IMG_PATH
+             ,D_IMG_PATH
+        FROM VIEW_ITEMS
         WHERE ITEM_STATUS = 'Y'
         ORDER BY ITEM_NO DESC
     </select>

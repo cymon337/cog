@@ -9,13 +9,13 @@ import java.util.List;
 public interface GalleryManagerMapper {
     List<ItemDto> selectItems();
 
-    int registItems(ItemDto registItem);
-
-    ItemDto findLatestItem();
-
-    int updateItemById(ItemDto updateItem);
-
-    ItemDto findItemById(ItemDto updateItem);
-
-    int deleteItems(ItemDto deleteItem);
+//    int registItems(ItemDto registItem);
+//
+//    ItemDto findLatestItem();
+//
+//    int updateItemById(ItemDto updateItem);
+//
+//    ItemDto findItemById(ItemDto updateItem);
+//
+//    int deleteItems(ItemDto deleteItem);
 }
