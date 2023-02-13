@@ -112,4 +112,14 @@ public class MypageService {
 
         return responseMap;
     }
+
+    public Object selectMemberInfo(MemberDto loginMember) {
+
+        Map<String, Object> responseMap = new HashMap<>();
+        responseMap.put("memberId", loginMember.getMemberId());
+        responseMap.put("memberEmail", loginMember.getMemberEmail());
+        responseMap.put("memberMobile", loginMember.getMemberMobile());
+
+        return responseMap;
+    }
 }

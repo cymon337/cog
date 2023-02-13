@@ -20,6 +20,12 @@ public class MypageController {
 
     private final MypageService mypageService;
 
+    @GetMapping("/member-info")
+    public ResponseEntity<ResponseDto> selectMemberInfo(@AuthenticationPrincipal MemberDto loginMember) {
+
+        return ResponseEntity.ok().body(new ResponseDto(HttpStatus.OK, "회원정보 확인", mypageService.selectMemberInfo(loginMember)));
+    }
+
     @PutMapping("/member-info/password")
     public ResponseEntity<ResponseDto> updateMemberPwd(@RequestBody HashMap<String,String> updatePwd, @AuthenticationPrincipal MemberDto loginMember) {
         String charSequencePwd = updatePwd.get("updatePwd");
