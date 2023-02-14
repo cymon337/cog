@@ -9,7 +9,15 @@ import java.util.List;
 public interface GalleryManagerMapper {
     List<ItemDto> selectItems();
 
-//    int registItems(ItemDto registItem);
+    int selectNextItemNo();
+    int registItems();
+    int registImagesT(ItemDto registItem);
+    int registImagesF(ItemDto registItem);
+    int registImagesB(ItemDto registItem);
+    int registImagesD(ItemDto registItem);
+
+
+
 //
 //    ItemDto findLatestItem();
 //

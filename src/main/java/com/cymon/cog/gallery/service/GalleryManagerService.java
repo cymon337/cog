@@ -2,12 +2,18 @@ package com.cymon.cog.gallery.service;
 
 import com.cymon.cog.gallery.dao.GalleryManagerMapper;
 import com.cymon.cog.gallery.dto.ItemDto;
+import com.cymon.cog.util.FileUploadUtils;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.UUID;
 
 @Slf4j
 @Service
@@ -16,9 +22,9 @@ public class GalleryManagerService {
 
     private final GalleryManagerMapper galleryManagerMapper;
 
-    @Value("/itemsImg/")
+    @Value("${image.image-dir}")
     private String IMAGE_DIR;
-    @Value("http://localhost:8090/itemsImg/")
+    @Value("${image.image-url}")
     private String IMAGE_URL;
 
 
@@ -34,20 +40,104 @@ public class GalleryManagerService {
         return itemList;
     }
 
-//    @Transactional
-//    public Object registItems(ItemDto registItem) {
-//
-//        int result = galleryManagerMapper.registItems(registItem);
-//
-//        ItemDto lastItem = galleryManagerMapper.findLatestItem();
-//
-//
-//        Map<String, Object> responseMap = new HashMap<>();
-//        responseMap.put("lastItem", lastItem);
-//        responseMap.put("registResult", result);
-//
-//        return responseMap;
-//    }
+    public Object selectNextItemNo() {
+        int nextItemNo = galleryManagerMapper.selectNextItemNo();
+
+        Map<String, Object> responseMap = new HashMap<>();
+        responseMap.put("nextItemNo", nextItemNo);
+
+        return responseMap;
+    }
+
+    @Transactional
+    public String registItems(ItemDto registItem) {
+        log.debug("registItems start =====================");
+
+        // UUID 부여
+        String imageNameT = UUID.randomUUID().toString().replace("-", "");
+        String imageNameF = UUID.randomUUID().toString().replace("-", "");
+        String imageNameB = UUID.randomUUID().toString().replace("-", "");
+        String imageNameD = UUID.randomUUID().toString().replace("-", "");
+        String replaceFileNameTImg = null;
+        String replaceFileNameFImg = null;
+        String replaceFileNameBImg = null;
+        String replaceFileNameDImg = null;
+        int result = 0;
+
+        log.info("[GalleryManagerService] IMAGE_DIR : " + IMAGE_DIR);
+        log.info("[GalleryManagerService] imageName : " + imageNameT);
+        log.info("[GalleryManagerService] imageName : " + imageNameF);
+        log.info("[GalleryManagerService] imageName : " + imageNameB);
+        log.info("[GalleryManagerService] imageName : " + imageNameD);
+
+        try {
+            // t img
+            log.info("[GalleryManagerService] T IMG =====================");
+            replaceFileNameTImg = FileUploadUtils.saveFile(IMAGE_DIR, imageNameT, registItem.getTImg());
+            log.info("[GalleryManagerService] replaceFileName : " + replaceFileNameTImg);
+            registItem.setTImgPath(replaceFileNameTImg);
+            log.info("[GalleryManagerService] insert Image Name : "+ replaceFileNameTImg);
+
+            // f img
+            log.info("[GalleryManagerService] F IMG =====================");
+            replaceFileNameFImg = FileUploadUtils.saveFile(IMAGE_DIR, imageNameF, registItem.getFImg());
+            log.info("[GalleryManagerService] replaceFileName : " + replaceFileNameFImg);
+            registItem.setFImgPath(replaceFileNameFImg);
+            log.info("[GalleryManagerService] insert Image Name : "+ replaceFileNameFImg);
+
+            // b img
+            log.info("[GalleryManagerService] B IMG =====================");
+            replaceFileNameBImg = FileUploadUtils.saveFile(IMAGE_DIR, imageNameB, registItem.getBImg());
+            log.info("[GalleryManagerService] replaceFileName : " + replaceFileNameBImg);
+            registItem.setBImgPath(replaceFileNameBImg);
+            log.info("[GalleryManagerService] insert Image Name : "+ replaceFileNameBImg);
+
+            // d img
+            log.info("[GalleryManagerService] D IMG =====================");
+            replaceFileNameDImg = FileUploadUtils.saveFile(IMAGE_DIR, imageNameD, registItem.getDImg());
+            log.info("[GalleryManagerService] replaceFileName : " + replaceFileNameDImg);
+            registItem.setDImgPath(replaceFileNameDImg);
+            log.info("[GalleryManagerService] insert Image Name : "+ replaceFileNameDImg);
+
+            log.info(registItem.toString());
+
+            result = galleryManagerMapper.registItems();
+            if(result == 1) {
+                result = galleryManagerMapper.registImagesT(registItem);
+                result += galleryManagerMapper.registImagesF(registItem);
+                result += galleryManagerMapper.registImagesB(registItem);
+                result += galleryManagerMapper.registImagesD(registItem);
+            }
+
+        } catch (IOException e) {
+            // t img
+            log.info("[GalleryManagerService] IOException IMAGE_DIR : "+ IMAGE_DIR);
+            log.info("[GalleryManagerService] IOException deleteFile : "+ replaceFileNameTImg);
+            FileUploadUtils.deleteFile(IMAGE_DIR, replaceFileNameTImg);
+
+            // f img
+            log.info("[GalleryManagerService] IOException IMAGE_DIR : "+ IMAGE_DIR);
+            log.info("[GalleryManagerService] IOException deleteFile : "+ replaceFileNameFImg);
+            FileUploadUtils.deleteFile(IMAGE_DIR, replaceFileNameFImg);
+
+            // b img
+            log.info("[GalleryManagerService] IOException IMAGE_DIR : "+ IMAGE_DIR);
+            log.info("[GalleryManagerService] IOException deleteFile : "+ replaceFileNameBImg);
+            FileUploadUtils.deleteFile(IMAGE_DIR, replaceFileNameBImg);
+
+            // d img
+            log.info("[GalleryManagerService] IOException IMAGE_DIR : "+ IMAGE_DIR);
+            log.info("[GalleryManagerService] IOException deleteFile : "+ replaceFileNameDImg);
+            FileUploadUtils.deleteFile(IMAGE_DIR, replaceFileNameDImg);
+
+            throw new RuntimeException(e);
+        }
+        log.info("[GalleryManagerService] result > 0 성공: "+ result);
+        return (result > 0) ? "아이템 등록 성공 "+result+" 개 이미지 등록" : "아이템 등록 실패";
+    }
+
+
+
 //
 //    @Transactional
 //    public Object updateItems(ItemDto updateItem) {

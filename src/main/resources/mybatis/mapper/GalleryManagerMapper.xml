@@ -17,61 +17,136 @@
         ORDER BY ITEM_NO DESC
     </select>
 
-<!--    <select id="findItemById" resultType="ItemDto">-->
-<!--        SELECT-->
-<!--            ITEM_NO-->
-<!--             , ITEM_LOCATION-->
-<!--             , ITEM_REG_DATE-->
-<!--             , ITEM_STATUS-->
-<!--        FROM ITEMS-->
-<!--        WHERE ITEM_NO = #{itemNo}-->
-<!--    </select>-->
+    <select id="selectNextItemNo" resultType="int">
+        SELECT
+            LAST_NUMBER
+        FROM
+            USER_SEQUENCES
+        WHERE
+            SEQUENCE_NAME = 'SEQ_ITEMS_NO'
+    </select>
 
-<!--    <select id="findLatestItem" resultType="ItemDto">-->
-<!--        SELECT-->
-<!--            ITEM_NO-->
-<!--             , ITEM_LOCATION-->
-<!--             , ITEM_REG_DATE-->
-<!--             , ITEM_STATUS-->
-<!--        FROM ITEMS-->
-<!--        WHERE-->
-<!--                ITEM_NO =-->
-<!--                (SELECT-->
-<!--                     MAX(ITEM_NO)-->
-<!--                 FROM ITEMS)-->
-<!--    </select>-->
+    <insert id="registItems">
+        INSERT INTO ITEMS VALUES (SEQ_ITEMS_NO.NEXTVAL, DEFAULT, DEFAULT)
+    </insert>
 
-<!--    <insert id="registItems" parameterType="ItemDto">-->
-<!--        INSERT INTO ITEMS-->
-<!--        (-->
-<!--            ITEM_NO-->
-<!--            , ITEM_LOCATION-->
-<!--            , ITEM_REG_DATE-->
-<!--            , ITEM_STATUS-->
-<!--        )-->
-<!--        VALUES-->
-<!--            (-->
-<!--                SEQ_ITEMS_NO.NEXTVAL,-->
-<!--                #{itemLocation},-->
-<!--                DEFAULT,-->
-<!--                DEFAULT-->
-<!--            )-->
-<!--    </insert>-->
+    <insert id="registImagesT" parameterType="ItemDto">
+        INSERT INTO IMAGES
+        VALUES (
+                   SEQ_IMG_NO.NEXTVAL,
+                   #{itemNo},
+                   'T',
+                   #{tImgPath},
+                   #{tImgPath},
+                   #{tImgPath}
+               )
+    </insert>
 
-<!--    <update id="updateItemById" parameterType="ItemDto">-->
-<!--        UPDATE ITEMS-->
-<!--        SET-->
-<!--            ITEM_STATUS = #{itemStatus},-->
+    <insert id="registImagesF" parameterType="ItemDto">
+        INSERT INTO IMAGES
+        VALUES (
+                   SEQ_IMG_NO.NEXTVAL,
+                   #{itemNo},
+                   'F',
+                   #{fImgPath},
+                   #{fImgPath},
+                   #{fImgPath}
+               )
+    </insert>
 
-<!--        WHERE-->
-<!--            ITEM_NO = #{itemNo}-->
-<!--    </update>-->
+    <insert id="registImagesB" parameterType="ItemDto">
+        INSERT INTO IMAGES
+        VALUES (
+                   SEQ_IMG_NO.NEXTVAL,
+                   #{itemNo},
+                   'B',
+                   #{bImgPath},
+                   #{bImgPath},
+                   #{bImgPath}
+               )
+    </insert>
 
-<!--    <delete id="deleteItems" parameterType="ItemDto">-->
-<!--        DELETE FROM ITEMS-->
-<!--        WHERE-->
-<!--            ITEM_NO = #{itemNo}-->
-<!--    </delete>-->
+    <insert id="registImagesD" parameterType="ItemDto">
+        INSERT INTO IMAGES
+        VALUES (
+                   SEQ_IMG_NO.NEXTVAL,
+                   #{itemNo},
+                   'D',
+                   #{dImgPath},
+                   #{dImgPath},
+                   #{dImgPath}
+               )
+    </insert>
+    <!--    INSERT INTO IMAGES-->
+    <!--    VALUES (-->
+    <!--    SEQ_IMG_NO.NEXTVAL,-->
+    <!--    #{itemNo},-->
+    <!--    'F',-->
+    <!--    '#{fImgPath}',-->
+    <!--    '#{fImgPath}',-->
+    <!--    '#{fImgPath}'-->
+    <!--    )-->
+    <!--    INSERT INTO IMAGES-->
+    <!--    VALUES (-->
+    <!--    SEQ_IMG_NO.NEXTVAL,-->
+    <!--    #{itemNo},-->
+    <!--    'B',-->
+    <!--    '#{bImgPath}',-->
+    <!--    '#{bImgPath}',-->
+    <!--    '#{bImgPath}'-->
+    <!--    )-->
+    <!--    INSERT INTO IMAGES-->
+    <!--    VALUES (-->
+    <!--    SEQ_IMG_NO.NEXTVAL,-->
+    <!--    #{itemNo},-->
+    <!--    'D',-->
+    <!--    '#{dImgPath}',-->
+    <!--    '#{dImgPath}',-->
+    <!--    '#{dImgPath}'-->
+    <!--    )-->
+
+
+
+    <!--    <select id="findItemById" resultType="ItemDto">-->
+    <!--        SELECT-->
+    <!--            ITEM_NO-->
+    <!--             , ITEM_LOCATION-->
+    <!--             , ITEM_REG_DATE-->
+    <!--             , ITEM_STATUS-->
+    <!--        FROM ITEMS-->
+    <!--        WHERE ITEM_NO = #{itemNo}-->
+    <!--    </select>-->
+
+    <!--    <select id="findLatestItem" resultType="ItemDto">-->
+    <!--        SELECT-->
+    <!--            ITEM_NO-->
+    <!--             , ITEM_LOCATION-->
+    <!--             , ITEM_REG_DATE-->
+    <!--             , ITEM_STATUS-->
+    <!--        FROM ITEMS-->
+    <!--        WHERE-->
+    <!--                ITEM_NO =-->
+    <!--                (SELECT-->
+    <!--                     MAX(ITEM_NO)-->
+    <!--                 FROM ITEMS)-->
+    <!--    </select>-->
+
+
+
+    <!--    <update id="updateItemById" parameterType="ItemDto">-->
+    <!--        UPDATE ITEMS-->
+    <!--        SET-->
+    <!--            ITEM_STATUS = #{itemStatus},-->
+
+    <!--        WHERE-->
+    <!--            ITEM_NO = #{itemNo}-->
+    <!--    </update>-->
+
+    <!--    <delete id="deleteItems" parameterType="ItemDto">-->
+    <!--        DELETE FROM ITEMS-->
+    <!--        WHERE-->
+    <!--            ITEM_NO = #{itemNo}-->
+    <!--    </delete>-->
 
 
 
