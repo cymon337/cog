@@ -77,33 +77,61 @@
                    #{dImgPath}
                )
     </insert>
-    <!--    INSERT INTO IMAGES-->
-    <!--    VALUES (-->
-    <!--    SEQ_IMG_NO.NEXTVAL,-->
-    <!--    #{itemNo},-->
-    <!--    'F',-->
-    <!--    '#{fImgPath}',-->
-    <!--    '#{fImgPath}',-->
-    <!--    '#{fImgPath}'-->
-    <!--    )-->
-    <!--    INSERT INTO IMAGES-->
-    <!--    VALUES (-->
-    <!--    SEQ_IMG_NO.NEXTVAL,-->
-    <!--    #{itemNo},-->
-    <!--    'B',-->
-    <!--    '#{bImgPath}',-->
-    <!--    '#{bImgPath}',-->
-    <!--    '#{bImgPath}'-->
-    <!--    )-->
-    <!--    INSERT INTO IMAGES-->
-    <!--    VALUES (-->
-    <!--    SEQ_IMG_NO.NEXTVAL,-->
-    <!--    #{itemNo},-->
-    <!--    'D',-->
-    <!--    '#{dImgPath}',-->
-    <!--    '#{dImgPath}',-->
-    <!--    '#{dImgPath}'-->
-    <!--    )-->
+
+    <update id="updateItem" parameterType="ItemDto">
+        UPDATE ITEMS
+        SET
+            ITEM_STATUS = #{itemStatus}
+        WHERE
+            ITEM_NO = #{itemNo}
+    </update>
+
+    <update id="updateImagesT" parameterType="ItemDto">
+        UPDATE IMAGES
+        SET
+            ORG_FILE_NAME = #{tImgPath},
+            SYS_FILE_NAME = #{tImgPath},
+            IMG_PATH = #{tImgPath}
+        WHERE
+            ITEM_NO = #{itemNo}
+            AND IMG_TAG = 'T'
+    </update>
+
+    <update id="updateImagesF" parameterType="ItemDto">
+        UPDATE IMAGES
+        SET
+            ORG_FILE_NAME = #{fImgPath},
+            SYS_FILE_NAME = #{fImgPath},
+            IMG_PATH = #{fImgPath}
+        WHERE
+                    ITEM_NO = #{itemNo}
+                AND IMG_TAG = 'F'
+    </update>
+
+    <update id="updateImagesB" parameterType="ItemDto">
+        UPDATE IMAGES
+        SET
+            ORG_FILE_NAME = #{bImgPath},
+            SYS_FILE_NAME = #{bImgPath},
+            IMG_PATH = #{bImgPath}
+        WHERE
+                    ITEM_NO = #{itemNo}
+                AND IMG_TAG = 'B'
+    </update>
+
+    <update id="updateImagesD" parameterType="ItemDto">
+        UPDATE IMAGES
+        SET
+            ORG_FILE_NAME = #{dImgPath},
+            SYS_FILE_NAME = #{dImgPath},
+            IMG_PATH = #{dImgPath}
+        WHERE
+                    ITEM_NO = #{itemNo}
+                AND IMG_TAG = 'D'
+    </update>
+
+
+
 
 
 

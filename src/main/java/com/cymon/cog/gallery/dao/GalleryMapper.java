@@ -9,5 +9,6 @@ import java.util.List;
 public interface GalleryMapper {
     List<ItemDto> selectItems();
 
+    ItemDto selectItemInfo(String itemNo);
 
 }

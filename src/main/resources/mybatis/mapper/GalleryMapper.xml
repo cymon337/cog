@@ -18,6 +18,19 @@
         ORDER BY ITEM_NO DESC
     </select>
 
+    <select id="selectItemInfo" resultType="ItemDto">
+        SELECT
+            ITEM_NO
+             ,ITEM_REG_DATE
+             ,ITEM_STATUS
+             ,T_IMG_PATH
+             ,F_IMG_PATH
+             ,B_IMG_PATH
+             ,D_IMG_PATH
+        FROM VIEW_ITEMS
+        WHERE ITEM_NO = #{itemNo}
+    </select>
+
 <!--    <select id="selectCollectionByIdAndItemNo" resultType="CollectionDto">-->
 <!--        SELECT-->
 <!--            CLT_NO-->

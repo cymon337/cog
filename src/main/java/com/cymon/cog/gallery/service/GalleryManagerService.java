@@ -136,6 +136,100 @@ public class GalleryManagerService {
         return (result > 0) ? "아이템 등록 성공 "+result+" 개 이미지 등록" : "아이템 등록 실패";
     }
 
+    @Transactional
+    public String updateItems(ItemDto updateItem) {
+        log.debug("updateItems start =====================");
+
+        // UUID 부여
+        String imageNameT = UUID.randomUUID().toString().replace("-", "");
+        String imageNameF = UUID.randomUUID().toString().replace("-", "");
+        String imageNameB = UUID.randomUUID().toString().replace("-", "");
+        String imageNameD = UUID.randomUUID().toString().replace("-", "");
+        String replaceFileNameTImg = null;
+        String replaceFileNameFImg = null;
+        String replaceFileNameBImg = null;
+        String replaceFileNameDImg = null;
+        int result = 0;
+
+        log.info("[GalleryManagerService] IMAGE_DIR : " + IMAGE_DIR);
+        log.info("[GalleryManagerService] imageName : " + imageNameT);
+        log.info("[GalleryManagerService] imageName : " + imageNameF);
+        log.info("[GalleryManagerService] imageName : " + imageNameB);
+        log.info("[GalleryManagerService] imageName : " + imageNameD);
+
+        try {
+            // t img
+            if(updateItem.getTImg() != null) {
+                log.info("[GalleryManagerService] T IMG =====================");
+                replaceFileNameTImg = FileUploadUtils.saveFile(IMAGE_DIR, imageNameT, updateItem.getTImg());
+                log.info("[GalleryManagerService] replaceFileName : " + replaceFileNameTImg);
+                updateItem.setTImgPath(replaceFileNameTImg);
+                log.info("[GalleryManagerService] insert Image Name : "+ replaceFileNameTImg);
+            }
+
+            // f img
+            if(updateItem.getFImg() != null) {
+                log.info("[GalleryManagerService] F IMG =====================");
+                replaceFileNameFImg = FileUploadUtils.saveFile(IMAGE_DIR, imageNameF, updateItem.getFImg());
+                log.info("[GalleryManagerService] replaceFileName : " + replaceFileNameFImg);
+                updateItem.setFImgPath(replaceFileNameFImg);
+                log.info("[GalleryManagerService] insert Image Name : " + replaceFileNameFImg);
+            }
+            // b img
+            if(updateItem.getBImg() != null) {
+                log.info("[GalleryManagerService] B IMG =====================");
+                replaceFileNameBImg = FileUploadUtils.saveFile(IMAGE_DIR, imageNameB, updateItem.getBImg());
+                log.info("[GalleryManagerService] replaceFileName : " + replaceFileNameBImg);
+                updateItem.setBImgPath(replaceFileNameBImg);
+                log.info("[GalleryManagerService] insert Image Name : " + replaceFileNameBImg);
+            }
+            // d img
+            if(updateItem.getDImg() != null) {
+                log.info("[GalleryManagerService] D IMG =====================");
+                replaceFileNameDImg = FileUploadUtils.saveFile(IMAGE_DIR, imageNameD, updateItem.getDImg());
+                log.info("[GalleryManagerService] replaceFileName : " + replaceFileNameDImg);
+                updateItem.setDImgPath(replaceFileNameDImg);
+                log.info("[GalleryManagerService] insert Image Name : " + replaceFileNameDImg);
+            }
+
+            log.info(updateItem.toString());
+
+            if(updateItem.getItemStatus() != null){
+                log.info(updateItem.getItemStatus());
+                result += galleryManagerMapper.updateItem(updateItem);
+            }
+            if(updateItem.getTImg() != null) result += galleryManagerMapper.updateImagesT(updateItem);
+            if(updateItem.getFImg() != null) result += galleryManagerMapper.updateImagesF(updateItem);
+            if(updateItem.getBImg() != null) result += galleryManagerMapper.updateImagesB(updateItem);
+            if(updateItem.getDImg() != null) result += galleryManagerMapper.updateImagesD(updateItem);
+
+
+        } catch (IOException e) {
+            // t img
+            log.info("[GalleryManagerService] IOException IMAGE_DIR : "+ IMAGE_DIR);
+            log.info("[GalleryManagerService] IOException deleteFile : "+ replaceFileNameTImg);
+            FileUploadUtils.deleteFile(IMAGE_DIR, replaceFileNameTImg);
+
+            // f img
+            log.info("[GalleryManagerService] IOException IMAGE_DIR : "+ IMAGE_DIR);
+            log.info("[GalleryManagerService] IOException deleteFile : "+ replaceFileNameFImg);
+            FileUploadUtils.deleteFile(IMAGE_DIR, replaceFileNameFImg);
+
+            // b img
+            log.info("[GalleryManagerService] IOException IMAGE_DIR : "+ IMAGE_DIR);
+            log.info("[GalleryManagerService] IOException deleteFile : "+ replaceFileNameBImg);
+            FileUploadUtils.deleteFile(IMAGE_DIR, replaceFileNameBImg);
+
+            // d img
+            log.info("[GalleryManagerService] IOException IMAGE_DIR : "+ IMAGE_DIR);
+            log.info("[GalleryManagerService] IOException deleteFile : "+ replaceFileNameDImg);
+            FileUploadUtils.deleteFile(IMAGE_DIR, replaceFileNameDImg);
+
+            throw new RuntimeException(e);
+        }
+        log.info("[GalleryManagerService] result > 0 성공: "+ result);
+        return (result > 0) ? "아이템 변경 성공 "+result+" 개 아이템 정보 변경" : "아이템 변경 없음";
+    }
 
 
 //

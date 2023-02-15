@@ -34,4 +34,13 @@ public class GalleryService {
     }
 
 
+    public Object selectItemInfo(String itemNo) {
+        ItemDto itemInfo = galleryMapper.selectItemInfo(itemNo);
+        itemInfo.setTImgPath(IMAGE_URL + itemInfo.getTImgPath());
+        itemInfo.setFImgPath(IMAGE_URL + itemInfo.getFImgPath());
+        itemInfo.setBImgPath(IMAGE_URL + itemInfo.getBImgPath());
+        itemInfo.setDImgPath(IMAGE_URL + itemInfo.getDImgPath());
+        log.info(itemInfo.toString());
+        return itemInfo;
+    }
 }
